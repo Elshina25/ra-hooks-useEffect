@@ -1,0 +1,56 @@
+.user-container {
+  padding: 20px;
+  display: flex;
+}
+
+.list-wrapper {
+  list-style-type: none;
+  width: 250px;
+  margin-right: 10px;
+  padding: 0 0 0 9px;
+  margin: 0 10px 0 0;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user {
+  border: 1px solid lightblue;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.user:not(:last-child) {
+  border-bottom: none;
+}
+
+.user.selected {
+  background-color: lightblue;
+}
+
+.user:hover {
+  background-color: lightblue;
+}
+
+.user-details {
+  list-style-type: none;
+}
+
+.user-details:not(:last-child) {
+  border-bottom: 1px solid lightblue;
+}
+
+.user-details.user-name {
+  font-size: 1.2em;
+  padding-bottom: 15px;
+}
+
+.user-avatar img {
+  width: 100%;
+}
+
+.user-details-group {
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
